@@ -204,6 +204,18 @@ h2 {
 
 .contact-box p { margin: 0; }
 
+.related-documents {
+  margin-top: 18px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--page);
+}
+
+.related-documents h2 { font-size: 18px; }
+.related-documents nav { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+.related-documents a { font-weight: 620; text-decoration: none; }
+
 .site-footer {
   min-height: 74px;
   padding: 18px max(20px, calc((100% - var(--max-width)) / 2));
@@ -217,7 +229,7 @@ h2 {
   font-size: 14px;
 }
 
-.site-footer nav { display: flex; gap: 24px; }
+.site-footer nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 24px; }
 .site-footer a { color: var(--muted); text-decoration: none; }
 .noscript { margin: 20px auto; max-width: 760px; padding: 20px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
@@ -248,6 +260,7 @@ h2 {
   h1 { font-size: 39px; }
   .intro { font-size: 16px; }
   .site-footer { align-items: flex-start; flex-direction: column; gap: 10px; }
+  .site-footer nav { justify-content: flex-start; }
 }
 
 @media (prefers-reduced-motion: reduce) {

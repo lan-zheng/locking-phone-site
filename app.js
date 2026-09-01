@@ -19,7 +19,7 @@
 
   const translations = {
     en: {
-      common: { privacy: "Privacy", support: "Support", toc: "On this page", updated: "Last updated" },
+      common: { privacy: "Privacy", terms: "Terms", membership: "Membership", renewal: "Auto-renewal", support: "Support", toc: "On this page", updated: "Last updated" },
       privacy: {
         title: "Privacy Policy",
         lead: "Your sleep routine stays on your device.",
@@ -51,7 +51,7 @@
       }
     },
     "zh-Hans": {
-      common: { privacy: "隐私", support: "支持", toc: "本页内容", updated: "最后更新" },
+      common: { privacy: "隐私政策", terms: "用户协议", membership: "会员服务协议", renewal: "自动续费服务协议", support: "支持", toc: "本页内容", updated: "最后更新" },
       privacy: {
         title: "隐私政策", lead: "你的睡眠习惯，只留在你的设备上。",
         intro: "Locking Phone 不建立用户账号，不接入广告或分析 SDK，也没有开发者服务器。本政策说明 App 在设备本地处理的有限信息。",
@@ -81,7 +81,7 @@
       }
     },
     "zh-Hant": {
-      common: { privacy: "隱私", support: "支援", toc: "本頁內容", updated: "最後更新" },
+      common: { privacy: "隱私政策", terms: "使用者協議", membership: "會員服務協議", renewal: "自動續費服務協議", support: "支援", toc: "本頁內容", updated: "最後更新" },
       privacy: {
         title: "隱私權政策", lead: "你的睡眠習慣，只留在你的裝置上。",
         intro: "Locking Phone 不建立使用者帳號、不接入廣告或分析 SDK，也沒有開發者伺服器。本政策說明 App 在裝置本機處理的有限資訊。",
@@ -113,7 +113,7 @@
 
   const localizedSummaries = {
     es: {
-      common: { privacy: "Privacidad", support: "Soporte", toc: "En esta página", updated: "Última actualización" },
+      common: { privacy: "Privacidad", terms: "Términos", membership: "Servicio Pro", renewal: "Renovación automática", support: "Soporte", toc: "En esta página", updated: "Última actualización" },
       privacy: ["Política de privacidad", "Tu rutina de sueño permanece en tu dispositivo.", "Locking Phone no utiliza cuentas, publicidad, SDK de análisis ni un servidor del desarrollador.", [
         ["no-collection", "Datos que no recopilamos", "No enviamos al desarrollador tus datos de contacto, identificadores, ubicación, historial, registros de sueño, controles matinales ni uso de apps. No vendemos datos ni realizamos seguimiento publicitario."],
         ["local-data", "Datos guardados en el dispositivo", "Los horarios, eventos de bloqueo, intentos bloqueados y registros matinales opcionales se guardan localmente y se comparten solo con las extensiones iOS necesarias mediante un App Group."],
@@ -135,7 +135,7 @@
       ]]
     },
     ja: {
-      common: { privacy: "プライバシー", support: "サポート", toc: "このページ", updated: "最終更新" },
+      common: { privacy: "プライバシー", terms: "利用規約", membership: "会員サービス", renewal: "自動更新", support: "サポート", toc: "このページ", updated: "最終更新" },
       privacy: ["プライバシーポリシー", "睡眠習慣の記録は端末内に残ります。", "Locking Phone にはアカウント、広告、開発者分析SDK、開発者サーバーはありません。", [
         ["no-collection", "収集しないデータ", "連絡先、識別子、位置情報、閲覧履歴、睡眠記録、朝の記録、アプリ使用記録を開発者へ送信しません。販売や広告追跡も行いません。"],
         ["local-data", "端末内のデータ", "スケジュール、実行記録、ブロックされた起動回数、任意の朝の記録は端末内に保存され、必要なiOS拡張機能とのみApp Groupで共有されます。"],
@@ -157,7 +157,7 @@
       ]]
     },
     ko: {
-      common: { privacy: "개인정보", support: "지원", toc: "페이지 내용", updated: "최종 업데이트" },
+      common: { privacy: "개인정보", terms: "이용 약관", membership: "회원 서비스", renewal: "자동 갱신", support: "지원", toc: "페이지 내용", updated: "최종 업데이트" },
       privacy: ["개인정보 처리방침", "수면 기록은 기기에만 보관됩니다.", "Locking Phone은 계정, 광고, 개발자 분석 SDK 또는 개발자 서버를 사용하지 않습니다.", [
         ["no-collection", "수집하지 않는 데이터", "연락처, 식별자, 위치, 검색 기록, 수면 기록, 아침 기록 또는 앱 사용 기록을 개발자에게 보내지 않으며 판매하거나 광고 추적에 사용하지 않습니다."],
         ["local-data", "기기에 저장되는 데이터", "일정, 잠금 실행 기록, 차단된 열기 횟수와 선택적 아침 기록은 기기에 저장되며 필요한 iOS 확장과 App Group으로만 공유됩니다."],
@@ -179,7 +179,7 @@
       ]]
     },
     fr: {
-      common: { privacy: "Confidentialité", support: "Assistance", toc: "Sur cette page", updated: "Dernière mise à jour" },
+      common: { privacy: "Confidentialité", terms: "Conditions", membership: "Service Pro", renewal: "Renouvellement", support: "Assistance", toc: "Sur cette page", updated: "Dernière mise à jour" },
       privacy: ["Politique de confidentialité", "Votre routine de sommeil reste sur votre appareil.", "Locking Phone n’utilise ni compte, ni publicité, ni SDK d’analyse, ni serveur du développeur.", [
         ["no-collection", "Données non collectées", "Nous n’envoyons pas au développeur vos coordonnées, identifiants, position, historique, données de sommeil, bilans matinaux ou données d’usage. Aucun suivi publicitaire ni revente."],
         ["local-data", "Données sur l’appareil", "Les horaires, événements, tentatives bloquées et bilans facultatifs restent localement sur l’appareil et sont partagés uniquement avec les extensions iOS nécessaires via un App Group."],
@@ -201,7 +201,7 @@
       ]]
     },
     de: {
-      common: { privacy: "Datenschutz", support: "Support", toc: "Auf dieser Seite", updated: "Zuletzt aktualisiert" },
+      common: { privacy: "Datenschutz", terms: "Bedingungen", membership: "Pro-Service", renewal: "Automatische Verlängerung", support: "Support", toc: "Auf dieser Seite", updated: "Zuletzt aktualisiert" },
       privacy: ["Datenschutzerklärung", "Deine Schlafroutine bleibt auf deinem Gerät.", "Locking Phone verwendet keine Konten, Werbung, Entwickleranalyse-SDKs oder Entwicklerserver.", [
         ["no-collection", "Nicht erhobene Daten", "Kontaktdaten, Kennungen, Standort, Verlauf, Schlafdaten, Morgen-Check-ins und App-Nutzung werden nicht an den Entwickler gesendet, verkauft oder für Werbetracking genutzt."],
         ["local-data", "Lokale Daten", "Zeitpläne, Sperrereignisse, blockierte Öffnungsversuche und optionale Morgenangaben bleiben auf dem Gerät und werden nur über eine App Group mit nötigen iOS-Erweiterungen geteilt."],
@@ -223,7 +223,7 @@
       ]]
     },
     "pt-BR": {
-      common: { privacy: "Privacidade", support: "Suporte", toc: "Nesta página", updated: "Última atualização" },
+      common: { privacy: "Privacidade", terms: "Termos", membership: "Serviço Pro", renewal: "Renovação automática", support: "Suporte", toc: "Nesta página", updated: "Última atualização" },
       privacy: ["Política de Privacidade", "Sua rotina de sono fica no seu dispositivo.", "O Locking Phone não usa contas, anúncios, SDKs de análise do desenvolvedor nem servidor próprio.", [
         ["no-collection", "Dados que não coletamos", "Não enviamos contatos, identificadores, localização, histórico, registros de sono, check-ins ou uso de apps ao desenvolvedor. Não vendemos dados nem fazemos rastreamento de anúncios."],
         ["local-data", "Dados no dispositivo", "Horários, eventos, tentativas bloqueadas e check-ins opcionais ficam no dispositivo e são compartilhados apenas com extensões iOS necessárias por um App Group."],
@@ -245,7 +245,7 @@
       ]]
     },
     ar: {
-      common: { privacy: "الخصوصية", support: "الدعم", toc: "في هذه الصفحة", updated: "آخر تحديث" },
+      common: { privacy: "الخصوصية", terms: "شروط الاستخدام", membership: "خدمة Pro", renewal: "التجديد التلقائي", support: "الدعم", toc: "في هذه الصفحة", updated: "آخر تحديث" },
       privacy: ["سياسة الخصوصية", "يبقى روتين نومك على جهازك.", "لا يستخدم Locking Phone حسابات أو إعلانات أو أدوات تحليلات للمطور أو خادمًا للمطور.", [
         ["no-collection", "بيانات لا نجمعها", "لا نرسل معلومات الاتصال أو المعرّفات أو الموقع أو سجل التصفح أو سجلات النوم أو تسجيلات الصباح أو استخدام التطبيقات إلى المطور، ولا نبيع البيانات أو نتتبعك للإعلانات."],
         ["local-data", "البيانات على الجهاز", "تبقى الجداول وأحداث القفل ومحاولات الفتح المحظورة وتسجيلات الصباح الاختيارية على الجهاز، وتشارك فقط مع ملحقات iOS الضرورية عبر App Group."],
@@ -326,16 +326,17 @@
       } else {
         link.removeAttribute("aria-current");
       }
-      const target = key === "privacy" ? "privacy.html" : "support.html";
+      const target = { privacy: "privacy.html", terms: "terms.html", support: "support.html" }[key];
       link.href = `${target}?lang=${encodeURIComponent(code)}`;
     });
 
     document.querySelector(".brand").href = `index.html?lang=${encodeURIComponent(code)}`;
 
-    document.querySelectorAll('.site-footer a').forEach((link, index) => {
-      const key = index === 0 ? "privacy" : "support";
+    const footerTargets = { privacy: "privacy.html", terms: "terms.html", membership: "membership.html", renewal: "auto-renewal.html", support: "support.html" };
+    document.querySelectorAll('[data-footer-link]').forEach((link) => {
+      const key = link.dataset.footerLink;
       link.textContent = copy.common[key];
-      link.href = `${key === "privacy" ? "privacy.html" : "support.html"}?lang=${encodeURIComponent(code)}`;
+      link.href = `${footerTargets[key]}?lang=${encodeURIComponent(code)}`;
     });
 
     document.getElementById("tocLabel").textContent = copy.common.toc;
